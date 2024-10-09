@@ -128,14 +128,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runtipi/runtipi.git"
+    "url": "git+https://github.com/Grizef/runtipi.git"
   },
   "author": "",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/runtipi/runtipi/issues"
+    "url": "https://github.com/Grizef/runtipi/issues"
   },
-  "homepage": "https://github.com/runtipi/runtipi#readme",
+  "homepage": "https://github.com/Grizef/runtipi#readme",
   "pnpm": {
     "patchedDependencies": {}
   }

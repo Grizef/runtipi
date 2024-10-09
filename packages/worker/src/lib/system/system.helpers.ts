@@ -41,7 +41,7 @@ type EnvKeys =
   | (string & {});
 
 const OLD_DEFAULT_REPO_URL = 'https://github.com/meienberger/runtipi-appstore';
-export const DEFAULT_REPO_URL = 'https://github.com/runtipi/runtipi-appstore';
+export const DEFAULT_REPO_URL = 'https://github.com/Grizef/runtipi-appstore';
 
 /**
  * Reads and returns the generated seed

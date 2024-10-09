@@ -40,11 +40,11 @@ export const Welcome = ({ allowErrorMonitoring }: Props) => {
             <p className="text-center mb-4">
               Tipi is a free and open source project that is developed and maintained by a small team. If it helps you in any way, please consider
               supporting the project by{' '}
-              <a target="_blank" href="https://github.com/runtipi/runtipi?sponsor=1" rel="noreferrer">
+              <a target="_blank" href="https://github.com/Grizef/runtipi?sponsor=1" rel="noreferrer">
                 donating
               </a>{' '}
               or by{' '}
-              <a target="_blank" rel="noreferrer" href="https://github.com/runtipi/runtipi">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Grizef/runtipi">
                 contributing to the codebase
               </a>
               .
@@ -67,7 +67,7 @@ export const Welcome = ({ allowErrorMonitoring }: Props) => {
             </div>
             <div className="hr-text">Join the community</div>
             <div className="row justify-content-center gap-2">
-              <Button onClick={() => openLink('https://github.com/runtipi/runtipi/discussions')}>
+              <Button onClick={() => openLink('https://github.com/Grizef/runtipi/discussions')}>
                 <IconBrandGithub /> Github
               </Button>
               <Button onClick={() => openLink('https://discord.gg/WGW7YP7E5j')}>

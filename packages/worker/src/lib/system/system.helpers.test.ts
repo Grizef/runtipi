@@ -71,7 +71,7 @@ describe('generateSystemEnvFile()', async () => {
 
     // assert
     expect(generated.get('APPS_REPO_ID')).toBe('29ca930bfdaffa1dfabf5726336380ede7066bc53297e3c0c868b27c97282903');
-    expect(generated.get('APPS_REPO_URL')).toBe('https://github.com/runtipi/runtipi-appstore');
+    expect(generated.get('APPS_REPO_URL')).toBe('https://github.com/Grizef/runtipi-appstore');
     expect(generated.get('JWT_SECRET')).toBeTruthy();
     expect(generated.get('DOMAIN')).toBe('example.com');
     expect(generated.get('RUNTIPI_APP_DATA_PATH')).toBe(envMap.get('ROOT_FOLDER_HOST'));
@@ -102,7 +102,7 @@ describe('generateSystemEnvFile()', async () => {
     const generated = generateSystemEnvFile();
 
     // assert
-    expect(generated.get('APPS_REPO_URL')).toBe('https://github.com/runtipi/runtipi-appstore');
+    expect(generated.get('APPS_REPO_URL')).toBe('https://github.com/Grizef/runtipi-appstore');
   });
 
   it('should not replace a repo url from settings.json if it is not the old one', async () => {
